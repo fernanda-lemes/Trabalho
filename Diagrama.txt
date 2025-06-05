@@ -1,0 +1,21 @@
+             +----------------+
+             |    Produto     |
+             +----------------+
+             | - nome : String|
+             | - preco : double|
+             +----------------+
+             | + exibirInfo() |
+             +----------------+
+                  ▲     ▲
+                  |     |
+        +---------+     +----------+
+        |                          |
+  +-----------+              +------------+
+  |   Livro   |              |   Camisa   |
+  +-----------+              +------------+
+  | - autor : String        | - cor : String
+  | - numPaginas : int      | - tamanho : String
+  | - capaDura : boolean    | - material : String
+  +------------------+      +-------------------+
+  | + exibirInfo()   |      | + exibirInfo()    |
+  +------------------+      +-------------------+
